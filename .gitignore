@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 build/
-SudokuSolver.spec
+PyQt_Tetris.spec
 one_file/
 dist/
 *.zip
