@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+*.py[cod]
+build/
+SudokuSolver.spec
+one_file/
+dist/
+*.zip
