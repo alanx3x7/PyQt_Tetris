@@ -16,22 +16,39 @@ the tetromino upwards. Once a row is completely filled by tetromino blocks, the 
 all rows above that row shift down. 
 </p>
 
-There are many game modes that exist within Tetris. Some of the traditional game modes include: 
+There are many game modes that exist within Tetris. Some of the traditional game modes are shown below. For a list of 
+implemented game modes and further explanation, see [here](#game-modes): 
 * Marathon: Compete for highest score as pieces descend faster and faster as more lines are cleared
 * Sprint 40: Compete for the shortest amount of time needed to clear 40 lines
 * Battle 2P: Compete in order to knockout an opponent by clearing lines to send lines to the opponent
 * Time Trial: Compete for the most lines sent given a specific amount of time
 
+___
 
 ### Controls
-<p align="justify">
-Pressing 'Enter' or the 'Return' key to start, the user can then using the arrow keys to move
-the tetrominoes on board. Using the left and right arrow keys, the tetromino can be moved left
-or right one space, respectively. Pressing and holding the arrow key simulates a rapid series
-of presses of that key. Pressing the down arrow key 
-</p>
+* 'Enter' or 'Return': Start the game 
+* 'p': Pause the game/resume the game
+* 'q': Quit the game
+* 'r': Restart the game after game over.
+* Left arrow key: Move the tetromino left by one space. If held, move by multiple, depending on duration of hold
+* Right arrow key: Move the tetromino right by one space. If held, move by multiple, depending on duration of hold.
+* Down arrow key: Move the tetromino down by one space. If held, move by multiple, depending on duration of hold.
+* Up arrow key: Rotate the tetromino clockwise by 90 degrees. If held, rotated multiple times, depending on duration.
+* Space bar: Drop the piece down to the bottom of the board (where the current ghost piece is)
+* Shift: Move the current tetromino to the hold space. Can only do once per new tetromino
+
+___
 
 ### Game Modes
 Currently, the implemented game modes include:
-
-#### Time Trial
+* Time Trial
+  * The goal of this is to see how many lines can be sent by the user within 120 seconds, or two minutes. The game will
+  start timing immediately, and will freeze all keyboard control after the two minutes have elapsed.
+  
+___
+  
+### Future Work
+* Leaderboards
+* Sprint game mode
+* Marathon game mode
+* Custom keyboard control
